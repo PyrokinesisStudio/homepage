@@ -6,16 +6,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52771679-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-52771679-1');
-    </script>
-
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="theme-color" content="#2196F3">
@@ -29,7 +19,6 @@
     <!-- stylesheets -->
     <link href="assets/css/index.css" type="text/css" rel="stylesheet">
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/apilabeffmpplallenlcommnigaafgfb">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
 
   <body>
@@ -40,19 +29,9 @@
         <div class="center-page">
           <span class="time" id="js-time"></span><br />
           <span class="time" id="js-date"></span>
-          <form method=GET action="http://www.google.com/search" autocomplete="off" class="form-box">
-            <input autofocus type=text name=q size=35 maxlength=255 value="" placeholder="Search on Google..."><input type=hidden name=hl value="en">
-          </form>
         </div>
       </div>
     </section>
-
-    <a onclick="chrome.webstore.install()" id="install-button">Add to Chrome</a>
-    <script>
-    if (chrome.app.isInstalled) {
-      document.getElementById('install-button').style.display = 'none';
-    }
-    </script>
 
     <!-- scripts -->
     <script src="assets/js/moment-with-locales.min.js"></script>

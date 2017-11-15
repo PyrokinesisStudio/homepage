@@ -23,7 +23,7 @@ function getQueryVariable(variable) {
 }
 
 // Start updating
-moment.locale(getQueryVariable("lang") || navigator.language);
+moment.locale("en-gb");
 updateDateAndTime();
 
 /**

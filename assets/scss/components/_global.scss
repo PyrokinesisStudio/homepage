@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Montserrat.ttf');
+}
+
 html, body {
   background-color: #222;
   color: #fff;
